@@ -1,0 +1,85 @@
+body{
+    font-family: "Quicksand",sans-serif;
+    margin: 0;
+    background-color: rgb(44,41,38);
+}
+header a{
+text-decoration: none;
+padding: 35px;
+}
+header nav ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7, 6, 6);
+    padding: 0 2%;
+
+}
+header nav a{
+    font-size: 1.25rem;
+}
+header nav a:hover{
+    color: rgb(225, 220, 80);
+}
+header a{
+    color: chocolate;
+}
+header ul{
+    display: flex;
+}
+
+main h1{
+    text-align: center;
+    color: coral;
+    font-size:3rem;
+}
+
+#logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: orangered;
+    
+}
+#latest-product ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    /* for giving gap b/w two cards */
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+/* we use this making card size fit accordingly  */
+#latest-product{
+    width: 80%;
+    margin: 2rem auto;
+}
+.food{
+    background-color:rgb(169, 169, 169);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.food img{
+  height: 15rem;
+  width: 100%;
+  object-fit:cover;
+}
+.food-item{
+    padding: 1rem;
+    text-align: center;
+}
+.btn{
+    background-color: rgb(243, 190, 18);
+    color: white;
+    border-radius: 4px;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+}
+.btn:hover{
+background-color: orange;
+}
